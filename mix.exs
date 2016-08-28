@@ -27,6 +27,6 @@ defmodule LinterError.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [{:ex_guard, "~> 1.1.1", only: :dev}]
   end
 end
