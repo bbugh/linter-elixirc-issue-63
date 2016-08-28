@@ -1,24 +1,11 @@
-# LinterError
+# Example for #63
 
-**TODO: Add description**
+Reproducing the error:
 
-## Installation
+1. git clone https://github.com/bbugh/linter-elixirc-issue-63
+2. mix deps.get
+3. mix compile
+4. Open `.exguard.exs` in Atom. 
+5. Observe AtomLinter/linter-elixirc#63
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add `linter_error` to your list of dependencies in `mix.exs`:
-
-    ```elixir
-    def deps do
-      [{:linter_error, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `linter_error` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:linter_error]]
-    end
-    ```
-
+![image](https://cloud.githubusercontent.com/assets/438465/18033716/7b10f2cc-6cf1-11e6-9130-d02e6b7a12a9.png)
