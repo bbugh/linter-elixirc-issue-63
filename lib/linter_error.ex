@@ -1,0 +1,2 @@
+defmodule LinterError do
+end
